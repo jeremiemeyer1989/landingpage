@@ -1,0 +1,60 @@
+Last login: Wed Oct 31 19:40:31 on ttys000
+Jeremies-MacBook-Pro:~ jeremiemeyer$ ls
+Applications	Calibre Library	Documents	Library		Pictures
+Bootcam		Coding		Downloads	Movies		Public
+Bootcamp	Desktop		Dropbox		Music
+Jeremies-MacBook-Pro:~ jeremiemeyer$ cd Document
+-bash: cd: Document: No such file or directory
+Jeremies-MacBook-Pro:~ jeremiemeyer$ cd Documents
+Jeremies-MacBook-Pro:Documents jeremiemeyer$ ls
+20171001 Jeremie Residence Proof.jpg	Guitare
+Achats					JEREMIE PRIVE
+Adobe Scripts				JEREMIE PRO
+Audio book				LANGUAGES
+BlackBerry Backups			PHOTOS
+Cuisine - Recettes			SCOLARITE
+Debating				SCOLARITE - ALUMNI
+Dessin					The Joy of Sex PDF.pdf
+Documents à lire			VIDEOS
+Données utilisateurs Microsoft		VOYAGES : TRIPS
+Ebook					conférences - notes
+Jeremies-MacBook-Pro:Documents jeremiemeyer$ cd ..
+Jeremies-MacBook-Pro:~ jeremiemeyer$ ls
+Applications	Calibre Library	Documents	Library		Pictures
+Bootcam		Coding		Downloads	Movies		Public
+Bootcamp	Desktop		Dropbox		Music
+Jeremies-MacBook-Pro:~ jeremiemeyer$ cd Desktop
+Jeremies-MacBook-Pro:Desktop jeremiemeyer$ ls
+A LIRE
+Coding Bootcamp
+Jeremie Schindler China Archive 2013 2017
+assignment3starterCode
+Jeremies-MacBook-Pro:Desktop jeremiemeyer$ cd Coding\ Bootcamp
+Jeremies-MacBook-Pro:Coding Bootcamp jeremiemeyer$ ls
+Downloads	Week 1		Week 2		profile
+Jeremies-MacBook-Pro:Coding Bootcamp jeremiemeyer$ cd Week \2
+-bash: cd: Week: No such file or directory
+Jeremies-MacBook-Pro:Coding Bootcamp jeremiemeyer$ cd week\ 2
+Jeremies-MacBook-Pro:week 2 jeremiemeyer$ ls
+Class 2.1	Class 2.2
+Jeremies-MacBook-Pro:week 2 jeremiemeyer$ cd class\ 2.2
+Jeremies-MacBook-Pro:class 2.2 jeremiemeyer$ ls
+landingpage
+Jeremies-MacBook-Pro:class 2.2 jeremiemeyer$ cd landingpage
+Jeremies-MacBook-Pro:landingpage jeremiemeyer$ ls
+LICENSE			img			scss
+README.md		index.html		vendor
+css			package-lock.json
+gulpfile.js		package.json
+Jeremies-MacBook-Pro:landingpage jeremiemeyer$ git status
+On branch branch2
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+
+Jeremies-MacBook-Pro:landingpage jeremiemeyer$ git checkout master
+M	index.html
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Jeremies-MacBook-Pro:landingpage jeremiemeyer$ 
